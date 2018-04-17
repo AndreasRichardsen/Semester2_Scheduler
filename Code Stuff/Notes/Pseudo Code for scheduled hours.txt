@@ -1,0 +1,17 @@
+getAvailableEmployee(true)
+
+return hoursWorked(currentMonth)
+getShifts(CurrentMonth)
+Foreach:
+if shift after today
+ Scheduled Hours += shift.getEstimatedShiftLength
+
+estHoursNeeded() = Employee.getMinimumHours - (hoursWorked+ScheduledHours)
+
+When addEmployee action
+scheduledHours + shift.getEstimatedShiftLength
+estHoursNeeded()
+
+When RemoveEmployee action 
+ScheduledHours - shift.getEstimatedShiftLength
+estHoursNeeded()
