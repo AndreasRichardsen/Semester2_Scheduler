@@ -1,0 +1,10 @@
+Topics to discuss
+
+Relational Model - can dates be the only primary key
+Domain Model - discuss changes Giana suggested
+Coding - Do we need classes for day of the week / date or are enums enough
+Responsibility - for logic where does it belong?
+Multi-threading - In GUI or Controller?
+Transaction questions - do we need it everywhere or only a few places
+Transaction for concurrency - "Lost transaction problems"
+Prepared Statements necessary for all or only for input situations?

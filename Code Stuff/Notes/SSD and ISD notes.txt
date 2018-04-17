@@ -1,0 +1,3 @@
+Interaction sequence Diagram
+only have controllers for main use cases
+For each action from the SSD create a new interaction sequence diagram
